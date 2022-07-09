@@ -10,10 +10,10 @@ const NewDisney = (props) => {
     <Container>
       <h4>New to Disney+</h4>
       <Content>
-        <Wrap>
+      <Wrap>
          <Link  >
             <img
-               src="https://bit.ly/3p5TtWU"
+               src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg"
                alt=""
              />
          </Link>
@@ -22,7 +22,7 @@ const NewDisney = (props) => {
         <Wrap>
          <Link  >
             <img
-               src="https://bit.ly/3LQIeLX"
+               src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1E0501AFBAFCA1ABB5D31DBA7D1A913B2A35D70FD3DFD804939B71901577161D/scale?width=400&aspectRatio=1.78&format=jpeg"
                alt=""
              />
          </Link>
@@ -31,7 +31,7 @@ const NewDisney = (props) => {
         <Wrap>
          <Link  >
             <img
-               src="https://bit.ly/33IJhMy"
+               src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/341AE85B6C1423B9042B5F2E786645EE551B9D546C3D263B220A4727617FD2B8/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals"
                alt=""
              />
          </Link>
@@ -40,7 +40,7 @@ const NewDisney = (props) => {
         <Wrap>
          <Link  >
             <img
-               src="https://bit.ly/3BRj0Z5"
+               src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4B32D8CB7C0C358E9FF348FB0338AD13F9A5836808E9EF5FADD9DBDE52FC3CAD/scale?width=400&aspectRatio=1.78&format=jpeg"
                alt=""
              />
          </Link>
@@ -74,7 +74,6 @@ const Wrap = styled.div`
   position: relative;
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   border: 3px solid rgba(249, 249, 249, 0.1);
-
   img {
     inset: 0px;
     display: block;
@@ -87,7 +86,6 @@ const Wrap = styled.div`
     z-index: 1;
     top: 0;
   }
-
   &:hover {
     box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
       rgb(0 0 0 / 72%) 0px 30px 22px -10px;

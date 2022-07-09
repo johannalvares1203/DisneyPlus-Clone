@@ -137,7 +137,6 @@ const Logo = styled.a`
   max-height: 80px;
   font-size: 0;
   display: inline-block;
-
   img {
     display: block;
     width: 100%;
@@ -155,19 +154,16 @@ const NavMenu = styled.div`
   position: relative;
   margin-right: auto;
   margin-left: 25px;
-
   a {
       display: flex;
       align-items: center;
       padding: 0 12px;
-
       img {
           height: 20px;
           min-width: 20px;
           max-width: 20px;
           z-index: auto;
       }
-
       span {
           color: rgb(249, 249, 249);
           font-size: 14px;
@@ -176,7 +172,6 @@ const NavMenu = styled.div`
           padding: 2px 0px;
           white-space: nowrap;
           position: relative;
-
           &:before {
           background-color: rgb(249, 249, 249);
           border-radius: 0px 0px 4px 4px;
@@ -194,7 +189,6 @@ const NavMenu = styled.div`
           width: auto;
       }
     }
-
     &:hover {
       span:before {
           transform: scaleX(1);
@@ -203,7 +197,6 @@ const NavMenu = styled.div`
       }  
     }
   }
-
   /* @media (max-width: 768px) {
       display: none;
   } */
@@ -219,7 +212,6 @@ const Login = styled.a`
   border-radius: 4px;
   transition: all .2s ease 0s;
   cursor: pointer;
-
   &:hover {
      background-color: #f9f9f9;
      color: #000; 
@@ -257,13 +249,11 @@ const SignOut = styled.div`
   cursor: pointer;
   align-items: center;
   justify-content: center;
-
   ${UserImg} {
     border-radius: 50%;
     width: 100%;
     height: 100%;
   }
-
   &:hover {
     ${DropDown} {
       opacity: 1;

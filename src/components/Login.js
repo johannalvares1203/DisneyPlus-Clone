@@ -90,7 +90,6 @@ const SignUp = styled.a`
   padding-left: 70px;
   padding-right: 70px;
   cursor: pointer;
-
   &:hover {
     background-color: #0483ee;
   }
